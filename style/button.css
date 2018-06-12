@@ -1,0 +1,25 @@
+.button{
+    position: relative;
+    display: inline-block;
+    text-Align: center;
+    background-Color: #ffffff;
+    border-Radius: 4px;
+    opacity: 0.85;
+    width: 144px;
+    height: 42px;
+    cursor: pointer;
+}
+.button span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-Family: Open Sans;
+    color: #1C7430;
+    font-Size: 16px;
+    letter-Spacing: 0;
+    font-Weight: bold;
+    width: max-content;
+    width: -moz-max-content;
+    user-Select: none;
+}

@@ -1,0 +1,5 @@
+./main.ts
+./app.ts
+./layouts/*
+./intfs/*
+./structs/*

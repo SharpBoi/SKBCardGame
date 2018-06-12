@@ -1,0 +1,26 @@
+@font-face
+{
+    font-family: "OpenSans-SemiBold";
+    src: url("../content/fonts/OpenSans-SemiBold.ttf");
+}
+@font-face
+{
+    font-family: "OpenSans-Bold";
+    src: url("../content/fonts/OpenSans-Bold.ttf");
+}
+@font-face
+{
+    font-family: "Krungthep";
+    src: url("../content/fonts/krungthep.ttf");
+}
+#textStartGame
+{
+    font-Family: "OpenSans-Bold";
+    font-Weight: bold;
+    font-Size: 28px;
+    color: white;
+    letter-Spacing: 0.2px;
+    opacity: 0.85;
+    position: absolute;
+    user-Select: none;
+}

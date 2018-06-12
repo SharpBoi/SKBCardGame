@@ -1,0 +1,158 @@
+/*START GAME LAYOUT*/
+.startGameLayout
+{
+    width: 1280px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+}
+.startGameLayout div:first
+{
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+}
+.startGameLayout #logo
+{
+    width: 503px;
+    height: 262px;
+    /* margin-left: 389px; */
+    margin-top: 94px;
+    user-select: none;
+}
+.startGameLayout #title
+{
+    font-Family: "OpenSans-Bold";
+    font-Weight: bold;
+    font-Size: 28px;
+    color: white;
+    letter-Spacing: 0.2px;
+    opacity: 0.85;
+    user-Select: none;
+
+    margin-top: 20px;
+    display: inline-block;
+}
+.startGameLayout .button
+{
+    margin-top: 34px;
+}
+
+/* GAME LAYOUT */
+.gameLayout
+{
+    width: 1280px;
+    height: 600px;
+    margin: auto;
+}
+.gameLayout 
+#gameLayout-title
+{
+    text-align: center;
+}
+.gameLayout 
+#gameLayout-title 
+div:first-child
+{
+    width: 700px;
+    display: inline-block;
+    text-align: initial;
+    margin-top: 54px;
+}
+.gameLayout
+#gameLayout-restart
+{
+    opacity: 0.8;
+    font-family: "OpenSans-SemiBold";
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: -0.25px;
+
+    cursor: pointer;
+    user-select: none;
+}
+.gameLayout
+#gameLayout-score-title
+{
+    opacity: 0.8;
+    font-family: "OpenSans-Bold";
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+
+    user-select: none;
+}
+.gameLayout
+#gameLayout-score-value
+{
+    opacity: 0.8;
+    font-family: "krungthep";
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-left: 10px;
+
+    user-select: none;
+}
+.gameLayout
+.gameLayout-deck
+{
+    width: 700;
+    height: 456;
+    display: inline-block;
+    position: relative;
+    margin-top: 24px;
+}
+
+.gameLayout
+.deckRow
+{
+    height: 33%;
+    width: 100%;
+    display: inline;
+}
+
+/*END GAME LAYOUT*/
+.endGameLayout
+{
+    width: 1280px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+}
+.endGameLayout div:first
+{
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+}
+.endGameLayout #logo
+{
+    width: 516px;
+    height: 275px;
+    /* margin-left: 389px; */
+    margin-top: 74px;
+    user-select: none;
+}
+.endGameLayout #title
+{
+    font-Family: "OpenSans-Bold";
+    font-Weight: bold;
+    font-Size: 24px;
+    color: white;
+    letter-Spacing: 0.15px;
+    opacity: 0.85;
+    user-Select: none;
+    line-height: 35px;
+
+    margin-top: 9px;
+    display: inline-block;
+}
+.endGameLayout .button
+{
+    margin-top: 40px;
+    width: 128px;
+    height: 42px;
+}
